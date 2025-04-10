@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 27, 2019, 11:51:22 PM
+    Author     : Nurielmeni
+*/
+
+/******** ACCESSABILITY ********/
+.pagina-acessivel .has-error .form-control {
+    border-color: #ff0000;
+}
+
+.pagina-acessivel .has-error .help-block, 
+.pagina-acessivel .has-error .control-label, 
+.pagina-acessivel .has-error .radio, 
+.pagina-acessivel .has-error .checkbox, 
+.pagina-acessivel .has-error .radio-inline, 
+.pagina-acessivel .has-error .checkbox-inline, 
+.pagina-acessivel .has-error.radio label, 
+.pagina-acessivel .has-error.checkbox label, 
+.pagina-acessivel .has-error.radio-inline label, 
+.pagina-acessivel .has-error.checkbox-inline label{
+    color: #ff0000; 
+}
+
+.pagina-acessivel .has-success .help-block, 
+.pagina-acessivel .has-success .control-label, 
+.pagina-acessivel .has-success .radio, 
+.pagina-acessivel .has-success .checkbox, 
+.pagina-acessivel .has-success .radio-inline, 
+.pagina-acessivel .has-success .checkbox-inline, 
+.pagina-acessivel .has-success.radio label, 
+.pagina-acessivel .has-success.checkbox label, 
+.pagina-acessivel .has-success.radio-inline label, 
+.pagina-acessivel .has-success.checkbox-inline label {
+    color: #00ff00;
+}

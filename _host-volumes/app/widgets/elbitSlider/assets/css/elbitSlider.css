@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2019, 12:14:26 AM
+    Author     : Nurielmeni
+*/
+
+.slider-client {
+  position: relative;
+  padding: 0 70px;
+}
+.section-client {
+  background: #f1f1f1;
+  padding: 45px 0;
+}
+.inner-item-client {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right-client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36%;
+  padding: 0 2%;
+  margin-top: 40px;
+}
+.right-client img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.left-client {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+  margin-top: 40px;
+  height: 220px;
+  overflow: auto;
+}
+.left-client h3 {
+  margin: 0;
+}
+.left-client h3 a {
+  display: block;
+  color: #004990;
+  font-size: 21px;
+  font-weight: 700;
+}
+.left-client span {
+  display: block;
+  color: #004990;
+  font-weight: 400;
+  font-size: 21px;
+  border-right: 2px solid #ffdc2d;
+  line-height: 22px;
+  padding-right: 10px;
+  margin: 5px 0;
+}
+.left-client p {
+  color: #004990;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+  margin: 15px 0 0;
+}
+/****************/
+.arrows-slider {
+  position: absolute;
+  top: 46%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+.btn-arrows.next {
+  right: 0px;
+}
+.btn-arrows.prev {
+  left: 0px;
+}
+.btn-arrows {
+  font-size: 40px;
+  color: #145798;
+  cursor: pointer;
+  position: absolute;
+}
+.dots-slider {
+  text-align: right;
+  direction: rtl;
+}
+.dots-slider .btn-dots.active {
+  background: #145798;
+  opacity: 1;
+}
+.dots-slider .btn-dots {
+  background: #145798;
+  opacity: 0.4;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 4px;
+  cursor: pointer;
+}
+.inner-arrows-slider {
+  width: 80%;
+  margin: 30px auto 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+@media (max-width: 768px) {
+  .section-client .inner-item-client {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .slider-client {
+    padding: 0 40px;
+  }
+
+  .inner-arrows-slider {
+    width: 100%;
+  }
+
+  .section-client .inner-item-client > div {
+    width: 100%;
+  }
+}

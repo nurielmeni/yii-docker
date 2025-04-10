@@ -1,5 +1,10 @@
 .env
 *.swp
-_host-volumes
+_host-volumes/app/vendor
+_host-volumes/app/vagrant
+_host-volumes/app/runtime/**
+_host-volumes/app/web/assets/**
+_host-volumes/app/tests
+_host-volumes/app/mail/**
 
 \.idea/

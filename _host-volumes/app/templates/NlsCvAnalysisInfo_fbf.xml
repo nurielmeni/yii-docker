@@ -1,0 +1,104 @@
+<NiloosoftCvAnalysisInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ApplyingPerson>
+    <AccountManagerId xsi:nil="true" />
+    <Addresses>
+      <AddressInfo>
+        <CardId xsi:nil="true" />
+        <CityId>0</CityId>
+        <IsDefault>false</IsDefault>
+        <POBox>0</POBox>
+        <PostalCode />
+        <Street />
+        <UtilizerId>0</UtilizerId>
+      </AddressInfo>
+    </Addresses>
+    <BirthDate xsi:nil="true" />
+    <CardId>00000000-0000-0000-0000-000000000000</CardId>
+    <CreatedBy>0</CreatedBy>
+    <CreationDate xsi:nil="true" />
+    <Email>##APPLICANT_EMAIL##</Email>
+    <EntityLocalName>##APPLICANT_FULLNAME##</EntityLocalName>
+    <LinkedInProfileUrl>##APPLICANT_LINKED_IN_PROFILE##</LinkedInProfileUrl>
+    <HighestStage xsi:nil="true" />
+    <IsParseAllAsTransient xsi:nil="true" />
+    <LockLevelStatus>0</LockLevelStatus>
+    <ParentCardId xsi:nil="true" />
+    <Phones>
+      <PhoneInfo>
+        <PhoneType>Mobile</PhoneType>
+        <CountryCode>972</CountryCode>
+        <AreaCode>##APPLICANT_AREA_CODE##</AreaCode>
+        <PhoneNumber>##APPLICANT_PHONE_NUMBER##</PhoneNumber>
+        <IsDefault>true</IsDefault>
+      </PhoneInfo>
+    </Phones>
+    <Rank xsi:nil="true" />
+    <RecruitedBy xsi:nil="true" />
+    <SellsStatus xsi:nil="true" />
+    <Status xsi:nil="true" />
+    <StatusExpirationTime xsi:nil="true" />
+    <UpdateDate>0001-01-01T00:00:00</UpdateDate>
+    <UpdatedBy>0</UpdatedBy>
+    <Gender xsi:nil="true" />
+    <NumberOfChildren xsi:nil="true" />
+    <Role xsi:nil="true" />
+    <SupplierApplicantId xsi:nil="true" />
+    <SupplierExpirationTime xsi:nil="true" />
+    <SupplierId>##SUPPLIER_ID##</SupplierId>
+    <UserId xsi:nil="true" />
+  </ApplyingPerson>
+  <Notes>
+    שם המשרה: ##JOB_TITLE##
+    קוד המשרה: ##JOB_CODE##
+    פרטי מועמד:
+    שם מלא של המועמד: ##APPLICANT_FULLNAME##
+    נייד: ##APPLICANT_MOBILE##
+    אימייל: ##APPLICANT_EMAIL##
+    אזור ממליץ: ##APPLICANT_AREA##
+    שם הממליצ/ה: ##RECOMENDING_FULLNAME##
+    מספר זהות: ##RECOMENDING_ISRAELI_ID##
+    מייל הממליצ/ה: ##RECOMENDING_EMAIL##
+    נייד הממליצ/ה: ##RECOMENDING_MOBILE##
+  </Notes>
+  <RecommendingPerson>
+    <AccountManagerId xsi:nil="true" />
+    <BirthDate xsi:nil="true" />
+    <CardId>00000000-0000-0000-0000-000000000000</CardId>
+    <CreatedBy>0</CreatedBy>
+    <CreationDate xsi:nil="true" />
+    <Email>##RECOMENDING_EMAIL##</Email>
+    <EntityLocalName>##RECOMENDING_FULLNAME##</EntityLocalName>
+    <EntityForeignName></EntityForeignName>
+    <ForeignEntityCode>##RECOMENDING_ISRAELI_ID##</ForeignEntityCode>
+    <HighestStage xsi:nil="true" />
+    <IsParseAllAsTransient xsi:nil="true" />
+    <LockLevelStatus>0</LockLevelStatus>
+    <ParentCardId xsi:nil="true" />
+    <Phones>
+      <PhoneInfo>
+        <PhoneType>Mobile</PhoneType>
+        <CountryCode>972</CountryCode>
+        <AreaCode>##RECOMENDING_AREA_CODE##</AreaCode>
+        <PhoneNumber>##RECOMENDING_PHONE_NUMBER##</PhoneNumber>
+        <IsDefault>true</IsDefault>
+      </PhoneInfo>
+    </Phones>
+    <Rank xsi:nil="true" />
+    <RecruitedBy xsi:nil="true" />
+    <SellsStatus xsi:nil="true" />
+    <Status xsi:nil="true" />
+    <StatusExpirationTime xsi:nil="true" />
+    <UpdateDate>0001-01-01T00:00:00</UpdateDate>
+    <UpdatedBy>0</UpdatedBy>
+    <NumberOfChildren xsi:nil="true" />
+    <PersonalId xsi:nil="true" />
+    <Role xsi:nil="true" />
+    <SupplierApplicantId xsi:nil="true" />
+    <SupplierExpirationTime xsi:nil="true" />
+    <SupplierId>##SUPPLIER_ID##</SupplierId>
+    <UserId xsi:nil="true" />
+  </RecommendingPerson>
+  <SupplierId>##SUPPLIER_ID##</SupplierId>
+</NiloosoftCvAnalysisInfo>
+  

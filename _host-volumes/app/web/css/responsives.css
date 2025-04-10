@@ -1,0 +1,102 @@
+/** RESPONSIVE CSS **/
+@media all and (max-width: 767.9px) {
+  .job-page .step-next.pagenavis .back-step {
+    font-size: 16px;
+    margin-top: 6px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  #job-results tr.tr-title {
+    display: none;
+  }
+
+  #job-results tr {
+    border-top: 1px solid #dadcc4;
+  }
+
+  #job-results tr:last-child {
+    border-bottom: 1px solid #dadcc4;
+  }
+
+  #job-results tr td {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #job-active-show td > * {
+    width: 100%;
+  }
+
+  #job-active-show .btn-table.download {
+    margin-top: 30px;
+  }
+
+  #job-results tr td.apply-job {
+    justify-content: space-between;
+  }
+
+  #job-results tr td.jobcode,
+  #job-results tr td.region {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .video-yotube {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .banner.banner-v2 .container {
+    margin-top: 60px;
+    position: relative !important;
+    position: absolute;
+    margin-top: -400px;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .inner-banner {
+    max-width: 800px;
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+  }
+
+  .banner img.banner-desktop {
+    display: none;
+  }
+
+  .banner img.banner-mobile {
+    display: block;
+    object-fit: cover;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1000.1px) {
+  .banner.banner-v2 .container {
+    font-size: 1.3rem;
+  }
+
+  .banner img.banner-desktop {
+    display: block;
+    object-fit: scale-down;
+    max-height: 550px;
+    object-position: left;
+  }
+
+  .banner img.banner-mobile {
+    display: none;
+  }
+}

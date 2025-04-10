@@ -1,0 +1,219 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+body.campaign {
+    background-color: #1366B1;
+}
+.campaign-wrap {
+    position: relative;
+}
+
+.row.alerts {
+    position: absolute;
+    z-index: 100;
+    top: 50px;
+}
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+img.circled-image {
+    border-radius: 50%;
+}
+
+.box-presonal.job-page table tr th:nth-child(1) {
+    width: calc(54% - 100px);
+}
+
+.box-presonal.job-page table tr th:nth-child(2) {
+    width: 100px;
+}
+
+.box-presonal.job-page table tr th:nth-child(3) {
+    width: 28%
+}
+
+.box-presonal.job-page table tr th:nth-child(4) {
+    width: 18%
+}
+
+#job-active-show .first-td {
+    min-width: 300px;
+    width: 40%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+w-100 {
+    width: 100%;
+}
+
+.campaign-wrap,
+.campaign-wrap > .row {
+    min-height: 100%;
+}
+
+.campaign-wrap .ikea-form,
+.campaign-wrap .ikea-image {
+    height: auto;
+    min-height: 100%;
+}
+
+.campaign-wrap .ikea-form {
+    width: 28%;
+    padding: 15px;
+    background-color: #00a77a;
+}
+
+.campaign-wrap .ikea-image {
+    width: 67%;
+    background-color: #dcddde;
+}
+
+#contact-form input[type="file"] {
+    display: none;
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.dir-ltr {
+    direction: ltr;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
+.ql-toolbar {
+    display: flex;
+    flex-direction: row-reverse;
+    direction: ltr;
+}
+.ql-editor {
+  direction: rtl;
+  text-align: right;
+}
+.ql-container {
+    min-height: 130px;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+@media(min-width:768px) {
+    .campain-wrap {
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .campain-wrap > .row > div {
+        min-height: 100vh;
+    }
+}

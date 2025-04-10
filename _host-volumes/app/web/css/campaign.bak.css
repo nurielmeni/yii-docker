@@ -1,0 +1,359 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.campain-wrap {
+    color: white;
+}
+
+.dir-ltr {
+    direction: ltr;
+}
+
+.has-error .help-block.help-block-error
+{
+    color: #ff6d6a !important;
+}
+div.has-error .form-control {
+    border-color: #ff6d6a !important;
+}
+
+.dir-rtl {
+    direction: rtl;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.flex-r {
+    flex-direction: row;
+}
+
+.flex.flex-rr {
+    flex-direction: row-reverse;
+}
+
+.flex.flex-c {
+    flex-direction: column;
+}
+
+.flex.flex-cr {
+    flex-direction: column-reverse;
+}
+
+.flex.flex-ww {
+    flex-wrap: wrap;
+}
+
+.flex.flex-wn {
+    flex-wrap: nowrap;
+}
+
+.flex.flex-wr {
+    flex-wrap: wrap-reverse;
+}
+
+.flex.center {
+    justify-content: center;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.start {
+    justify-content: flex-start;
+}
+
+.flex.space-around {
+    justify-content: space-around;
+}
+
+.flex.middle {
+    vertical-align: middle;
+}
+
+.flex.top {
+    vertical-align: top;
+}
+
+.flex.bottom {
+    vertical-align: bottom;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.hv-100 {
+    height: 100vh;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-main {
+    background-color: #1a3967;
+}
+
+.bg-grey {
+    background-color: #dcddde;
+}
+
+.bg-yellow {
+    background-color: #dae249;
+}
+
+.fg-white {
+    color: #fff;
+}
+
+.fg-green {
+    color: #00a77a;
+}
+
+.fg-grey {
+    color: #dcddde;
+}
+
+.fg-yellow {
+    color: #dae249;
+}
+
+.btn.bg-yellow {
+    border: 1px solid #00a77a;
+}
+
+button.btn-clear {
+    background: none; 
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+/******** ACCESSABILITY ********/
+.pagina-acessivel .has-error .form-control {
+    border-color: #ff0000;
+}
+
+.pagina-acessivel .has-error .help-block, 
+.pagina-acessivel .has-error .control-label, 
+.pagina-acessivel .has-error .radio, 
+.pagina-acessivel .has-error .checkbox, 
+.pagina-acessivel .has-error .radio-inline, 
+.pagina-acessivel .has-error .checkbox-inline, 
+.pagina-acessivel .has-error.radio label, 
+.pagina-acessivel .has-error.checkbox label, 
+.pagina-acessivel .has-error.radio-inline label, 
+.pagina-acessivel .has-error.checkbox-inline label{
+    color: #ff0000; 
+}
+
+.pagina-acessivel .has-success .help-block, 
+.pagina-acessivel .has-success .control-label, 
+.pagina-acessivel .has-success .radio, 
+.pagina-acessivel .has-success .checkbox, 
+.pagina-acessivel .has-success .radio-inline, 
+.pagina-acessivel .has-success .checkbox-inline, 
+.pagina-acessivel .has-success.radio label, 
+.pagina-acessivel .has-success.checkbox label, 
+.pagina-acessivel .has-success.radio-inline label, 
+.pagina-acessivel .has-success.checkbox-inline label {
+    color: #00ff00;
+}
+
+/******** CAMPAIGN  *********/
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+}
+
+.campain-wrap,
+.campain-wrap > .row-fluid {
+    min-height: 100%;
+    width: 100%;
+}
+
+.campain-wrap .egged-form,
+.campain-wrap .egged-image {
+    height: auto;
+    min-height: 100%;
+}
+
+.campain-wrap .egged-form {
+    width: 30%;
+}
+
+#campain {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.campain-wrap .egged-form .logo {
+    padding-top: 30px;
+    padding-left: 30px;
+    background-size: contain !important;
+}
+
+.campain-wrap .egged-image,
+.campain-wrap .wrap-rigth.bg-main {
+    width: 70%;
+    min-height: 100vh;
+}
+
+.campain-wrap .egged-fbf-form {
+}
+
+.campain-wrap #contact-form-fbf {
+    padding: 15px 15px 0 15px;
+}
+
+.campain-wrap .form-data {
+    padding: 30px;
+}
+
+.campain-wrap .row.bdb {
+    border-top: 2px solid #50b75c;
+    padding-top: 20px;
+}
+
+.campain-wrap .row.applicant-fields:nth-child(n+3) {
+    border-top: 1px solid #50b75c;
+    padding-top: 15px;
+}
+
+.form-group.field-contactform-cvfile > label {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.campain-wrap .more-jobs {
+    margin: 15px 0;
+    padding-top: 15px;
+    font-size: calc(0.8rem + 0.65vw);
+}
+
+.attach-file > button > label {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.applicant-fields .form-group.attach-file {
+    max-width: 130px;
+}
+
+.more-jobs > a {
+    background-color: #ffffff;
+}
+
+.campain-wrap .more-jobs > * {
+    padding: 3px;
+}
+
+.campain-wrap .form-group {
+    min-height: 68px;
+    margin-bottom: 0px
+}
+
+.campain-wrap button[type="submit"] {
+    width: 100%;
+}
+
+.campain-wrap .form-group .help-block {
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+    
+.field-contactform-licanse > label {
+    font-weight: 400;
+}
+
+.campain-wrap #contact-form-fbf .form-group {
+    width: calc(50% - 7px);
+}
+
+.campain-wrap #contact-form-fbf .bdtop {
+    border-top: 1px solid #50b75c;
+    padding-top: 15px;
+}
+
+.egged-fbf-form .more-jobs {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+@media(max-width:767px) {
+    .campain-wrap .egged-image,
+    .campain-wrap .wrap-rigth.bg-main {
+        width: 96%;
+        min-height: 1vh;
+    }
+    .campain-wrap .egged-image, 
+    .campain-wrap .egged-fbf-form {
+        width: 96%;
+        min-height: 30vh;
+    }
+    .campain-wrap .egged-form {
+        width: 96%;
+    }
+    .flex.flex-wn {
+        flex-wrap: wrap;
+    }
+    .campain-wrap > .flex.space-between {
+        justify-content: center;
+    }
+    .campain-wrap .form-data {
+        padding: 0 15px;
+    }
+    .campain-wrap .more-jobs {
+        font-size: calc(1rem + 1.2vw);
+    }
+    #campain {
+        margin: 0;
+    }
+
+
+}
+
+@media(max-width:1000px) and (min-width:768px) {
+    .campain-wrap .egged-image {
+        width: calc(100% - 300px);
+    }
+    .campain-wrap .egged-form {
+        width: 300px;
+    }
+    .campain-wrap .egged-form .logo > img {
+        width: 50%;
+        max-width: 110px;
+    }
+
+}   
+
+@media(max-width:1199px) {
+    .campain-wrap .form-control,
+    .campain-wrap .btn {
+        height: calc(34px + 0.9vw);
+        font-size: calc(14px + 0.4vw);
+        line-height: 1em;
+    }
+}
+
+@media(min-width:1200px) {
+    .campain-wrap .form-control,
+    .campain-wrap .btn {
+        height: 45px;
+        font-size: 18px;
+        line-height: 1em;
+    }
+
+}   

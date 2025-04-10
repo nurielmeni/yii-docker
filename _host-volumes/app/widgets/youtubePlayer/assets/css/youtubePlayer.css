@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2019, 12:14:26 AM
+    Author     : Nurielmeni
+*/
+
+.youtube-player-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.youtube-player-wrapper > .close-player {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    background: url('close.svg') no-repeat center center;
+    background-size:contain;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
